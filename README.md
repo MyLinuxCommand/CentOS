@@ -6,3 +6,7 @@ linux commands &amp; issues
 nano /etc/yum/pluginconf.d/fastestmirror.conf
 ```
 Change enabled=1 to enabled=0 to disable the fastestmorror plugin.
+```
+nano /etc/yum.conf
+```
+Change plugins=1 to plugins=0 to disable the fastestmorror plugin.
